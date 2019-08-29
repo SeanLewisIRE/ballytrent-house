@@ -1,0 +1,15 @@
+
+
+.parallax {
+    background-image: url(img/sand1.jpg);
+    height: 40vh;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.justify-content-center {
+    height: 15vh;
+    padding-top: 5vh;
+}
