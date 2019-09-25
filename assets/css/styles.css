@@ -1,4 +1,24 @@
+
+/* Global Styles */
+
+/* Nav Styles */
+
+.navbar {
+    height: 8vh;
+    font-family: 'Poly', serif;
+}
+
+
 /* Homepage Styles */
+
+#home {
+    margin-top: 3%;
+    font-family: 'Poly', serif;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    font-size: 19px;
+    letter-spacing: 0.8px;
+}
 
 .parallax {
     background-image: url(../../img/sand1.jpg);
@@ -14,10 +34,45 @@
     padding-top: 5vh;
 }
 
-/* Contact Us Styles */
+/* Weddings & Events  */
+
+#wedding {
+    margin-top: 3%;
+    font-family: 'Poly', serif;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    font-size: 19px;
+    letter-spacing: 0.8px;
+}
+
+#wedding h1 {
+    font-size: 2.25rem;
+    margin: 0;
+}
+
+.square {
+    width: 100%;
+    max-width: 850px;
+    margin: 4% auto;
+    position: relative;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+/* Gallery Styles */
 
 .gallery {
-    padding: 80px;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(27, 5vw);
@@ -86,24 +141,160 @@
     grid-row-end: 28;
 }
 
-@media all and (max-width: 767px) {
+/* Contact Styles */
 
-.gallery {
+.contact-wrap {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    height: auto;
+    font-family: 'Poly', serif;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    font-size: 19px;
+    letter-spacing: 0.8px;
+}
+
+.contact-left {
+    width: 55%;
+    padding: 4%;
+}
+
+.contact-left h1 {
+    margin-top: 5%;
+    font-size: 3.25rem;
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+    margin: 4% 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+@media all and (min-width: 767px) {
+
+/* Weddings & Events  */
+
+
+#wedding h1 {
+    font-size: 3.5rem;
+}
+
+/* Contact Styles */
+
+.contact-wrap {
+    display: flex;
+    height: 77vh;
+    font-family: 'Poly', serif;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    font-size: 19px;
+    letter-spacing: 0.8px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin: 7% 0;
+}
+
+.contact-left {
+
+    width: 55%;
+    padding: 4%;
+}
+
+.contact-left h1 {
+    margin-top: 5%;
+    font-size: 3.25rem;
+}
+
+.contact-left h5 {
+    margin: 10% auto;
+    line-height: 35px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-right {
+    width: 45%;
+    padding: 6.5% 0 0 2%;
 }
 
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1350px) {
+
+.container-fluid {
+    max-width: 85%;
+}
 
 .gallery {
-    padding: 80px 0px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(27, 5vw);
-    grid-gap: 20px;
+    width: 75%;
+    margin: 0 auto;
+    grid-template-rows: repeat(19, 5vw);
 }
 
+.item-1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.item-2 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.item-3 {
+    grid-row-start: 4;
+    grid-row-end: 9;
+}
+
+.item-4 {
+    grid-row-start: 9;
+    grid-row-end: 12;
+}
+
+.item-5 {
+    grid-row-start: 9;
+    grid-row-end: 12;
+}
+
+.item-6 {
+    grid-row-start: 12;
+    grid-row-end: 15;
+}
+
+.item-7 {
+    grid-row-start: 12;
+    grid-row-end: 15;
+}
+
+.item-8 {
+    grid-row-start: 15;
+    grid-row-end: 20;
+}
+}
+
+/* footer styles */
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 4vh;
+    font-family: 'Poly', serif;
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.7);
 }
