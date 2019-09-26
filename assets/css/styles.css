@@ -21,16 +21,51 @@
 }
 
 .parallax {
-    background-image: url(../../img/sand1.jpg);
+    background-image: url(../../img/beach_sunset.jpg);
     height: 40vh;
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+  }
+
+.centered h3 {
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.centered a {
+    padding: 10px;
+    font-size: 1.25rem;
+    border: solid white 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.centered a:hover {
+    color: rgba(125, 119, 116, 0.9);
+    background: white;
+    text-decoration: none;
+    border: solid rgba(125, 119, 116, 0.9) 2px;
+    transition: all 0.25s ease-in;
 }
 
 .justify-content-center {
-    height: 15vh;
+    height: 10vh;
     padding-top: 3vh;
 }
 
@@ -159,8 +194,29 @@
     display: block;
 }
 
+/* footer styles */
+
+footer {
+    font-family: 'Poly', serif;
+}
+
+.footer-container {
+    bottom: 0;
+    padding-top: 2%;
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
 
 @media all and (min-width: 767px) {
+
+/* Home Styles */
+
+.centered h3 {
+    font-size: 2.25rem;
+}
 
 /* Weddings & Events  */
 
@@ -270,34 +326,64 @@
 }
 
 .contact-left {
-    width: 55%;
-    padding: 4%;
+    width: 50%;
+    padding: 3% 4% 4% 4%;
 }
 
 .contact-left p {
-    width: 75%;
+    width: 80%;
     margin: 7.5% 0;
 }
 
 .contact-right {
-    width: 45%;
-    padding: 12% 0 0 0;
+    width: 50%;
+    padding: 10% 0 0 0;
 }
 
 .mapouter{
     position:relative;
     height: 100%;
     width: 100%;
+    max-height: 480px;
 }
 
 .gmap_canvas {
+    box-sizing: border-box;
     overflow:hidden;
     background:none!important;
     height: 100%;
     width: 100%;
 }
 
+/* footer styles */
+
+footer {
+    height: 1vh;
 }
+
+}
+
+@media all and (min-width: 1000px) {
+
+.parallax {
+    background-image: url(../../img/beach_sunset_lg.jpg);
+    background-position: bottom;
+    background-size: contain;
+    height: 50vh;
+}
+
+.centered h3 {
+    font-size: 2.65rem;
+    letter-spacing: 1px;
+}
+
+.centered a {
+    padding: 15px;
+}
+
+
+}
+
 
 @media all and (min-width: 1350px) {
 
@@ -350,17 +436,6 @@
     grid-row-start: 15;
     grid-row-end: 20;
 }
+
 }
 
-/* footer styles */
-
-footer {
-    bottom: 0;
-    width: 100%;
-    height: 4vh;
-    font-family: 'Poly', serif;
-}
-
-footer a {
-    color: rgba(0, 0, 0, 0.7);
-}
