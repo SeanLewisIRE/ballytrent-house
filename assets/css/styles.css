@@ -15,7 +15,7 @@
     margin-top: 3%;
     font-family: 'Poly', serif;
     color: rgba(0, 0, 0, 0.6);
-    line-height: 40px;
+    line-height: 25px;
     font-size: 19px;
     letter-spacing: 0.8px;
 }
@@ -40,8 +40,18 @@
     height: auto;
   }
 
+  .front-credit {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      text-align: left;
+      font-size: 7px;
+      color: rgba(255, 255, 255, 0.5);
+      padding-left: 1%;
+  }
+
 .centered h3 {
-    font-size: 25px;
+    font-size: 22px;
     margin: 10px;
     font-family: 'Parisienne', cursive;
     font-weight: bold;
@@ -87,7 +97,7 @@
 
 .square {
     width: 100%;
-    max-width: 850px;
+    max-width: 400px;
     margin: 4% auto;
     position: relative;
     text-align: left;
@@ -223,6 +233,11 @@ footer a {
 
 #wedding h1 {
     font-size: 3.5rem;
+}
+
+
+.square {
+    max-width: 600px;
 }
 
 /* Gallery Styles */
@@ -389,6 +404,10 @@ footer {
 
 .container-fluid {
     max-width: 85%;
+}
+
+.square {
+    max-width: 800px;
 }
 
 .gallery {
