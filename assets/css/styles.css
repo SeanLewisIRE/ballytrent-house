@@ -1,6 +1,8 @@
 
 /* Global Styles */
-
+body {
+    overflow-y: scroll;
+}
 /* Nav Styles */
 
 .navbar {
@@ -135,9 +137,16 @@
 
 /* Contact Styles */
 
+iframe {
+    display: block;
+    height: 400px;
+    width: 400px;
+}
+
 .contact-wrap {
     display: flex;
     flex-direction: column;
+    min-height: 720px;
     height: auto;
     font-family: 'Poly', serif;
     color: rgba(0, 0, 0, 0.6);
@@ -360,6 +369,7 @@ footer a {
 }
 
 .mapouter{
+    display: block;
     position:relative;
     height: 100%;
     width: 100%;
@@ -376,9 +386,6 @@ footer a {
 
 /* footer styles */
 
-footer {
-    height: 1vh;
-}
 
 }
 
