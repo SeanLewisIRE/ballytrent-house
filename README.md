@@ -3,9 +3,9 @@
 Web page for Ballytrent House, wedding and events location in Co. Wexford, Ireland
 
 <h2>Summary</h2>
-This project provides Ballyrent Events with an online presence where users can view photos from the site, read about the services offered and contact the site owners with any queries they may have. 
+<p>This project provides Ballyrent Events with an online presence where users can view photos from the site, read about the services offered and contact the site owners with any queries they may have. </p>
 
-Currently features the following functions:
+Current Features:
 
 <ul>
   <li>Mobile-first layout</li>
