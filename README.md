@@ -28,3 +28,6 @@ Would like to add the following features:
   <li>Email form to replace email icon on contact page</li>
   <li>Calendar to allow users to book time for an event/viewing</li>
 </ul>
+<br>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ad986773-bad5-4b74-b442-4dd187f5771b/deploy-status)](https://app.netlify.com/sites/jolly-jang-eed4a8/deploys)
