@@ -87,8 +87,7 @@ body {
 }
 
 .justify-content-center {
-    height: 10vh;
-    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 /* Weddings & Events  */
@@ -267,7 +266,7 @@ footer a {
 /* Gallery Styles */
 
 .gallery {
-    padding: 20px;
+    padding: 30px 100px 30px 100px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(27, 5vw);

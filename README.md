@@ -24,8 +24,6 @@ Users can browse the four pages for this website (Home, Weddings & Events, Galle
 
 **Features Left to Implement**
 
-Would like to add the following features:
-
   * Email form to replace email icon on contact page
   * Calendar to allow users to book time for an event/viewing
 
@@ -39,6 +37,7 @@ This page was tested for responsiveness using the google chrome developer tools.
 
 ## Deployment
 Repository uploaded 29 Aug, 2019.
+Development is performed on local brach, updates pushed to remote master branch for deployment.
 Repository is hosted on [Netlify](https://www.netlify.com/).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad986773-bad5-4b74-b442-4dd187f5771b/deploy-status)](https://app.netlify.com/sites/jolly-jang-eed4a8/deploys)
@@ -46,4 +45,4 @@ Repository is hosted on [Netlify](https://www.netlify.com/).
 ## Credits
 
 **Media**
-*Google Maps Generator by [embedgooglemap.net](https://www.embedgooglemap.net). 
+* Google Maps Generator by [embedgooglemap.net](https://www.embedgooglemap.net). 
