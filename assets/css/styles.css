@@ -92,11 +92,6 @@ body {
     letter-spacing: 0.8px;
 }
 
-#wedding h1 {
-    font-size: 2.25rem;
-    margin: 0;
-}
-
 .square {
     width: 100%;
     max-width: 400px;
@@ -106,7 +101,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 15px;
     color: #fff;
 }
 
@@ -117,6 +112,15 @@ body {
 }
 
 /* Gallery Styles */
+
+#gallery {
+    margin-top: 3%;
+    font-family: 'Poly', serif;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    font-size: 19px;
+    letter-spacing: 0.8px;
+}
 
 .gallery {
     padding: 20px;
@@ -160,17 +164,19 @@ iframe {
 }
 
 .contact-left h1 {
-    margin-top: 5%;
+    text-align: center;
+    margin-top: 10%;
     font-size: 3.25rem;
 }
 
 .contact-left p {
-    width: 60%;
+    padding-top: 2rem;
+    width: 80%;
     line-height: 35px;
 }
 
 .icon {
-    width: 60x;
+    width: 60px;
     height: 60px;
 }
 
@@ -242,11 +248,6 @@ footer a {
 }
 
 /* Weddings & Events  */
-
-
-#wedding h1 {
-    font-size: 3.5rem;
-}
 
 
 .square {
@@ -342,7 +343,7 @@ footer a {
 .icon-container {
     display: flex;
     flex-direction: row;
-    margin: 10% 0 10% 0;
+    margin: 20% 0 10% 0;
     justify-content: space-between;
     width: 75%;
 }
@@ -354,12 +355,13 @@ footer a {
 }
 
 .contact-left {
+    text-align: left;
     width: 50%;
     padding: 3% 4% 4% 4%;
 }
 
 .contact-left p {
-    width: 80%;
+    padding-top: 1rem;
     margin: 7.5% 0;
 }
 
@@ -411,6 +413,18 @@ footer a {
     padding: 15px;
 }
 
+.contact-left h1 {
+    text-align: left;
+
+.contact-wrap {
+    margin-top: 0%;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
 
 }
 
@@ -422,7 +436,7 @@ footer a {
 }
 
 .square {
-    max-width: 800px;
+    max-width: 750px;
 }
 
 .gallery {
