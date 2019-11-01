@@ -1,44 +1,35 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149446772-2"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-149446772-2');
-    </script>
-    <meta name="description" content="Ballytrent House, Boutique Wedding and Event Venue in Co. Wexford, Ireland">
     <meta charset="UTF-8">
+    <meta name="description" content="Ballytrent House, Boutique Wedding and Event Venue in Co. Wexford, Ireland">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon.png">
-    <title>Ballytrent Events</title>
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poly&display=swap" rel="stylesheet">
+    <title>Gallery - Ballytrent House</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class='container'>
-            <a class="navbar-brand" href="#">Ballytrent House</a>
+            <a class="navbar-brand" href="index.html">Ballytrent House</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="weddings_events.html">Weddings & Events</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Gallery<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact Us</a>
@@ -48,40 +39,49 @@
         </div>
     </nav>
 
-    <main id="home">
-        <div class="container">
-            <h1 class="text-center">Ballytrent House</h1>
-            <img src="assets/images/front_page.jpg" class="img-fluid py-5" alt="Ballytrent House, Co. Wexford">
-            <p class="py-4 py-md-5"> A warm welcome awaits you at tranquil and secluded Ballytrent House. Whether you are planning a grand wedding or a small exclusive celebration, we welcome you to visit the unique offering that is Ballytrent House. <br>
-            With the ocean as your backdrop and set over three acres of beautiful gardens & lawns, Ballytrent is truly enchanting. <br>
-            Located on the grounds is an ancient double-ringed Ráth, which is reputed to be the largest in Europe. The Ráth dates back to pre-Christian times and has a rich history of religious worship and ceremonies. Full of rare plants, mature trees and beautiful roses, the Ráth garden is a haven for songbirds and is a captivating location for a wedding ceremony. <br>
-            </p>
-        </div>
-
-        <div class="container">
-            <div class="parallax">
-                <div class="centered">
-                    <h3>We can't wait to meet you</h3>
-                    <a href="assets/html/contact.html">Contact Us</a>
-                </div>
-                <div class="front-credit">
-                    Photo by Nathan Dumlao on Unsplash
-                </div> 
+    <main id="gallery">
+        <div class='container-fluid'>
+            <h1 class="text-center">Gallery</h1>
+            <div class="gallery">
+                <figure class="gallery__item item-1">
+                    <img src="assets/images/driveway.jpg" class="gallery__img" alt="Driveway">
+                </figure>
+                <figure class="gallery__item item-2">
+                    <img src="assets/images/garden_side.jpg" class="gallery__img" alt="side garden">
+                </figure>
+                <figure class="gallery__item item-3">
+                    <img src="assets/images/rath_arial.jpg" class="gallery__img" alt="Arial view of rath">
+                </figure>
+                <figure class="gallery__item item-4">
+                    <img src="assets/images/garden_front.jpg" class="gallery__img" alt="front garden">
+                </figure>
+                <figure class="gallery__item item-5">
+                    <img src="assets/images/catering.jpg" class="gallery__img" alt="catering provided">
+                </figure>
+                <figure class="gallery__item item-6">
+                    <img src="assets/images/marquee.jpg" class="gallery__img" alt="marquee">
+                </figure>
+                <figure class="gallery__item item-7">
+                    <img src="assets/images/marquee_interior.jpg" class="gallery__img" alt="marquee interior">
+                </figure>
+                <figure class="gallery__item item-8">
+                    <img src="assets/images/beach_arial.jpg" class="gallery__img" alt="arial view of beach">
+                </figure>
             </div>
         </div>
     </main>
 
     <footer class="py-7">
-        <div class="container footer-container">
+        <div class="container">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="weddings_events.html">Weddings & Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
+                    <a class="nav-link" href="#">Gallery</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact Us</a>

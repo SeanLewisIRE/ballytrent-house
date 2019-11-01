@@ -4,17 +4,6 @@ body {
     overflow-y: scroll;
 }
 
-
-/* Visually hidden used for acessibility on 'Contact Us' page social media icons */
-.visually-hidden { 
-    position: absolute !important;
-    height: 1px; 
-    width: 1px;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-    white-space: nowrap; /* added line */
-}
 /* Nav Styles */
 
 .navbar {
@@ -156,6 +145,9 @@ iframe {
     display: block;
     height: 400px;
     width: 400px;
+    border: none;
+    overflow: hidden;
+    margin: 0 0;
 }
 
 .contact-wrap {
@@ -171,7 +163,7 @@ iframe {
 }
 
 .contact-left {
-    padding: 5% 5% 2.5% 5%;
+    padding: 5% 5% 0 5%;
 }
 
 .contact-left h1 {
@@ -193,6 +185,8 @@ iframe {
 
 .icon:hover {
     cursor: pointer;
+    transform: scale(1.25);
+    transition: transform 0.25s ease-in;
 }
 
 .icon-container {
@@ -207,6 +201,12 @@ iframe {
     width: 100%;
     padding: 5% 5% 2.5% 5%;
     line-height: 30px;
+}
+
+.contact-right h4 {
+    text-align: center;
+    margin-bottom: 7.5%;
+    font-weight: 500;
 }
 
 .mapouter{
@@ -230,7 +230,18 @@ iframe {
     display: block;
 }
 
-/* footer styles */
+/* Visually hidden used for acessibility on social media icons */
+.visually-hidden { 
+    position: absolute !important;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
+}
+
+/* Footer styles */
 
 footer {
     font-family: 'Poly', serif;
@@ -246,6 +257,7 @@ footer a {
 }
 
 
+/* Tablet Styles */
 @media all and (min-width: 767px) {
 
 /* Home Styles */
@@ -264,8 +276,6 @@ footer a {
 .square {
     max-width: 600px;
 }
-
-
 
 /* Gallery Styles */
 
@@ -362,8 +372,6 @@ footer a {
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
     margin: 10% 0;
 }
 
@@ -371,6 +379,10 @@ footer a {
     text-align: left;
     width: 50%;
     padding: 3% 4% 4% 4%;
+}
+
+.contact-left h1 {
+    text-align: left;
 }
 
 .contact-left p {
@@ -381,6 +393,11 @@ footer a {
 .contact-right {
     width: 50%;
     padding: 10% 0 0 0;
+}
+
+.contact-right h4 {
+    text-align: left;
+    margin-bottom: 5%;
 }
 
 .mapouter{
@@ -399,11 +416,9 @@ footer a {
     width: 100%;
 }
 
-/* footer styles */
-
-
 }
 
+/* Large Screens */
 @media all and (min-width: 1000px) {
 
 #home {
@@ -426,30 +441,23 @@ footer a {
     padding: 15px;
 }
 
-.contact-left h1 {
-    text-align: left;
-
 .contact-wrap {
     margin-top: 0%;
 }
 
-.icon {
-    width: 80px;
-    height: 80px;
 }
 
-
-}
-
-
+/* XL Screens */
 @media all and (min-width: 1350px) {
 
-.container-fluid {
-    max-width: 85%;
-}
-
+/* Weddings & Events  */
 .square {
     max-width: 750px;
+}
+
+/* Gallery  */
+.container-fluid {
+    max-width: 85%;
 }
 
 .gallery {

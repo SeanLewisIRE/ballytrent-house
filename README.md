@@ -51,7 +51,9 @@ To cut ties with this GitHub repository, type git remote rm origin into the term
 ## Credits
 
 **Content**
-README layout and content inpired by Code Institute sample, available [here](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)
+* README layout and content inpired by Code Institute sample, available [here](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)
+
+* CSS Code snippet taken from [The A11Y Project](https://a11yproject.com/posts/how-to-hide-content/) used to increase acessibility of icons used for navigation purposes. 
 
 **Media**
 * Google Maps Generator by [embedgooglemap.net](https://www.embedgooglemap.net). 
