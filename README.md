@@ -3,7 +3,7 @@
 Web page for Ballytrent House, wedding and events location in Co. Wexford, Ireland.
 
 ## Demo
-A live demo can be found [here](https://www.ballytrentevents.com/)
+The live site can be found [here](https://www.ballytrentevents.com/)
 
 ## UX
 This project provides Ballyrent Events with an online presence where users can read about the services offered by Ballytrent Events, view photos from the location and find links to contact the property owners with any queries they may have. 
@@ -28,6 +28,8 @@ Users can browse the four pages for this website (Home, Weddings & Events, Galle
 
 
 ## Technologies
+* HTML
+* CSS
 * [Bootstrap (4.3.1)](https://getbootstrap.com/)
     * This project used Bootstrap 4 to simplify page styling and maintain uniform features throughout the site
 
@@ -47,6 +49,9 @@ To run locally, you can clone this repository directly into the editor of your c
 To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credits
+
+**Content**
+README layout and content inpired by Code Institute sample, available [here](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)
 
 **Media**
 * Google Maps Generator by [embedgooglemap.net](https://www.embedgooglemap.net). 
