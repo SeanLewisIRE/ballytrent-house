@@ -4,6 +4,8 @@ body {
     overflow-y: scroll;
 }
 
+
+/* Visually hidden used for acessibility on 'Contact Us' page social media icons */
 .visually-hidden { 
     position: absolute !important;
     height: 1px; 
@@ -33,7 +35,7 @@ body {
 }
 
 .parallax {
-    background-image: url(../../img/beach_sunset.jpg);
+    background-image: url(../../assets/images/beach_sunset.jpg);
     height: 40vh;
     background-attachment: fixed;
     background-position: center top;
@@ -263,6 +265,8 @@ footer a {
     max-width: 600px;
 }
 
+
+
 /* Gallery Styles */
 
 .gallery {
@@ -407,7 +411,7 @@ footer a {
 }
 
 .parallax {
-    background-image: url(../../img/beach_sunset_lg.jpg);
+    background-image: url(../../assets/images/beach_sunset_lg.jpg);
     background-position: bottom;
     background-size: contain;
     height: 50vh;
